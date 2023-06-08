@@ -56,3 +56,15 @@ if (population > 33) {
 "19" - "13" + 17; //result 23
 "123" < 57; //result false
 5 + 6 + "4" + 9 - 4 - 2; //result 1143
+
+//Equality Operators: == vs. ===
+const numNeighbours = Number(
+  prompt("How many neighbour countries dose your country have?")
+);
+if (numNeighbours === 1) {
+  console.log("only 1 border");
+} else if (numNeighbours > 1) {
+  console.log("More than 1 borde");
+} else {
+  console.log("No borders'");
+}
