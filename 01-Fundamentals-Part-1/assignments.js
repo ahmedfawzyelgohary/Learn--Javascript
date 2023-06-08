@@ -49,3 +49,10 @@ if (population > 33) {
   console.log(` ${country} population is ${33 - population} below average
 `);
 }
+
+// Type Conversion and coercion
+"9" - "5"; //result 4
+"19" - "13" + "17"; //result 617
+"19" - "13" + 17; //result 23
+"123" < 57; //result false
+5 + 6 + "4" + 9 - 4 - 2; //result 1143
