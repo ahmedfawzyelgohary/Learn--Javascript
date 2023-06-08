@@ -38,3 +38,6 @@ console.log(population < finland);
 const description =
   "Portugal is in Europe,its about 11 million people speak protuguese";
 console.log(description);
+
+//Strings and Template Literals
+const description0 = `${country} is in ${continent}, its about ${population} million people speak ${language} `;
