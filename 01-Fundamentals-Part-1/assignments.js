@@ -46,5 +46,6 @@ const description0 = `${country} is in ${continent}, its about ${population} mil
 if (population > 33) {
   console.log(` ${country} population is ${population} above average`);
 } else {
-  console.log(` ${country} population is ${33 - population} below average`);
+  console.log(` ${country} population is ${33 - population} below average
+`);
 }
