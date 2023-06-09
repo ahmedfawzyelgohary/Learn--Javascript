@@ -37,18 +37,18 @@ console.log(population > finland);
 console.log(population < finland);
 const description =
   "Portugal is in Europe,its about 11 million people speak protuguese";
-console.log(description);
+// console.log(description);
 
 //Strings and Template Literals
 const description0 = `${country} is in ${continent}, its about ${population} million people speak ${language} `;
 
 //Taking Decisions: if / else Statements
-if (population > 33) {
-  console.log(` ${country} population is ${population} above average`);
-} else {
-  console.log(` ${country} population is ${33 - population} below average
-`);
-}
+// if (population > 33) {
+//   console.log(` ${country} population is ${population} above average`);
+// } else {
+//   console.log(` ${country} population is ${33 - population} below average
+// `);
+// }
 
 // Type Conversion and coercion
 "9" - "5"; //result 4
@@ -58,13 +58,23 @@ if (population > 33) {
 5 + 6 + "4" + 9 - 4 - 2; //result 1143
 
 //Equality Operators: == vs. ===
-const numNeighbours = Number(
-  prompt("How many neighbour countries dose your country have?")
-);
-if (numNeighbours === 1) {
-  console.log("only 1 border");
-} else if (numNeighbours > 1) {
-  console.log("More than 1 borde");
+// const numNeighbours = Number(
+//   prompt("How many neighbour countries dose your country have?")
+// );
+// if (numNeighbours === 1) {
+//   console.log("only 1 border");
+// } else if (numNeighbours > 1) {
+//   console.log("More than 1 borde");
+// } else {
+//   console.log("No borders'");
+// }
+
+//Logical Operators
+// $$ --> (AND)
+// || --> (OR)
+
+if (language === "English" && population > 50 && !islanda) {
+  console.log(`you should live in ${country} 😊`);
 } else {
-  console.log("No borders'");
+  console.log(`'${country} does not meet your criteria `);
 }
