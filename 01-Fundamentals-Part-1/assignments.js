@@ -15,7 +15,7 @@ let population = 100;
 // console.log(typeof population);
 
 //----> let,const and var <-----
-language = "Arabic";
+// language = "Arabic";
 const country = "Egypt";
 const continent = "Africa";
 const isIsland = false;
@@ -40,7 +40,7 @@ const description =
 // console.log(description);
 
 //----> Strings and Template Literals <------
-const description0 = `${country} is in ${continent}, its about ${population} million people speak ${language} `;
+// const description0 = `${country} is in ${continent}, its about ${population} million people speak ${language} `;
 
 //Taking Decisions: if / else Statements
 // if (population > 33) {
@@ -78,3 +78,26 @@ const description0 = `${country} is in ${continent}, its about ${population} mil
 // } else {
 //   console.log(`'${country} does not meet your criteria 😢`);
 // }
+
+//----> The switch statement <------
+const language = `chinese`;
+switch (language) {
+  case `chinese`:
+  case ` mandarin`:
+    console.log("MOST number of native speakers!");
+    break;
+  case `spanish`:
+    console.log("2nd place in number of native speakers");
+    break;
+  case "english":
+    console.log("3rd place");
+    break;
+  case "hindi":
+    console.log("Number 4");
+    break;
+  case "arabic":
+    console.log("5th most spoken language");
+    break;
+  default:
+    console.log("Great language too :D");
+}
