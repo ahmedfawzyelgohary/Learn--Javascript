@@ -2,7 +2,7 @@ let js = "amazing";
 if (js === "amazing") alert("java script is fun!");
 // console.log(12 + 12);
 
-//Coding Challenge #1
+//----> Coding Challenge #1 <------
 const markMass = 78;
 const markHeight = 1.69;
 const johnHeight = 1.95;
@@ -13,15 +13,14 @@ const markHeigherBMI = markBMI > johnBMI;
 // console.log(markBMI, johnBMI);
 // console.log(markHeigherBMI);
 
-// Coding Challenge #2
+//---->  Coding Challenge #2 <------
 // if (markBMI > johnBMI) {
 //   console.log(`Mark's BMI ${markBMI} is higher than John's ${johnBMI}!`);
 // } else {
 //   console.log(`John's BMI ${johnBMI} is higher than Mark's ${markBMI}!`);
 // }
 
-// Challenge #3
-
+// ----> Challenge #3 <-----
 // ------------>part(1)
 // const averageScoreDolphins = (96 + 108 + 89) / 3;
 // const averageScoreKoalas = (88 + 91 + 110) / 3;
