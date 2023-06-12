@@ -23,13 +23,22 @@ console.log(
 );
 
 //Function Expression
-const percentageOfWorld2 = function (population2) {
+const percentageOfWorld2 = function (population) {
   return (population / 7900) * 100;
 };
 const percentageWorldFinlanda1 = percentageOfWorld1(6);
 const percentageWorldEgypt1 = percentageOfWorld1(100);
 const percentageWorldItaly1 = percentageOfWorld1(59);
-
 console.log(
-  `${percentageWorldEgypt} % , ${percentageWorldFinlanda} % , ${percentageWorldItaly} %`
+  `${percentageWorldEgypt1} % , ${percentageWorldFinlanda1} % , ${percentageWorldItaly1} %`
+);
+
+// ***********(Arrow Functions)***********
+const percentageOfWorld3 = (population) => (population / 7900) * 100;
+
+const percentageOfWorldFinlanda2 = percentageOfWorld3(6);
+const percentageOfWorldEgypt2 = percentageOfWorld3(100);
+const percentageOfWorldItaly2 = percentageOfWorld3(59);
+console.log(
+  `${percentageOfWorldEgypt2} % , ${percentageOfWorldFinlanda2} % , ${percentageOfWorldItaly2} %`
 );
