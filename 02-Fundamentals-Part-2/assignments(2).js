@@ -42,3 +42,4 @@ const percentageOfWorldItaly2 = percentageOfWorld3(59);
 console.log(
   `${percentageOfWorldEgypt2} % , ${percentageOfWorldFinlanda2} % , ${percentageOfWorldItaly2} %`
 );
+//
