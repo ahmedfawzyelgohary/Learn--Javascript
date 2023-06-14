@@ -42,3 +42,13 @@ const percentageOfWorldItaly2 = percentageOfWorld3(59);
 // console.log(
 //   `${percentageOfWorldEgypt2} % , ${percentageOfWorldFinlanda2} % , ${percentageOfWorldItaly2} %`
 // );
+
+// ***********(Functions calling other Functions)***********
+function describePopulation(country, population) {
+  const describePopulation = percentageOfWorld3(population);
+
+  return `${country} has ${population} million peple,which is about ${describePopulation} % of the wolrd`;
+}
+console.log(describePopulation("Egypt", 100));
+console.log(describePopulation("Finlanda", 6));
+console.log(describePopulation("Italy", 59));
