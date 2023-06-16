@@ -7,7 +7,7 @@ const theResult1 = describeCountry("Finland", 6, "Helsinki");
 const theResult2 = describeCountry("Egypt", 100, "cairo");
 const theResult3 = describeCountry("Italy", 59, "Rome");
 
-console.log(theResult1, theResult2, theResult3);
+// console.log(theResult1, theResult2, theResult3);
 
 // ***********(: Function Declarations vs. Expressions)***********
 // Function Declarations
@@ -52,3 +52,15 @@ function describePopulation(country, population) {
 // console.log(describePopulation("Egypt", 100));
 // console.log(describePopulation("Finlanda", 6));
 // console.log(describePopulation("Italy", 59));
+
+// ***********(Introduction to Arrays)***********
+const population = ["Egypt", "Finlada", "Tunis", "Italy"];
+// Whether the array has 4 elements or not
+console.log(population.length === 4);
+// <------->
+const percentages = [
+  percentageWorldEgypt,
+  percentageWorldFinlanda,
+  percentageWorldItaly,
+];
+console.log(percentages);
