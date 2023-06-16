@@ -63,4 +63,20 @@ const percentages = [
   percentageWorldFinlanda,
   percentageWorldItaly,
 ];
-console.log(percentages);
+// console.log(percentages);
+// ***********(Basic Array Operations (Methods))***********
+const neighbours = ["Tunis", "Libya", "Palestine"];
+
+// to adde value at the end
+neighbours.push("Utopia");
+// console.log(neighbours);
+// to remove last value
+neighbours.pop();
+// console.log(neighbours);
+// try include
+if (!neighbours.includes("Germany")) {
+  // console.log(`Probably not a central European Country :D`);
+}
+// try index of and replace
+neighbours[neighbours.indexOf("Tunis")] = "Repalace of tunis";
+// console.log(neighbours);
