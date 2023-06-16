@@ -49,6 +49,6 @@ function describePopulation(country, population) {
 
   return `${country} has ${population} million peple,which is about ${describePopulation} % of the wolrd`;
 }
-console.log(describePopulation("Egypt", 100));
-console.log(describePopulation("Finlanda", 6));
-console.log(describePopulation("Italy", 59));
+// console.log(describePopulation("Egypt", 100));
+// console.log(describePopulation("Finlanda", 6));
+// console.log(describePopulation("Italy", 59));
