@@ -56,7 +56,7 @@ function describePopulation(country, population) {
 // ***********(Introduction to Arrays)***********
 const population = ["Egypt", "Finlada", "Tunis", "Italy"];
 // Whether the array has 4 elements or not
-console.log(population.length === 4);
+// console.log(population.length === 4);
 // <------->
 const percentages = [
   percentageWorldEgypt,
@@ -79,4 +79,3 @@ if (!neighbours.includes("Germany")) {
 }
 // try index of and replace
 neighbours[neighbours.indexOf("Tunis")] = "Repalace of tunis";
-// console.log(neighbours);
