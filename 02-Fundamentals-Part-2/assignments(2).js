@@ -79,3 +79,12 @@ if (!neighbours.includes("Germany")) {
 }
 // try index of and replace
 neighbours[neighbours.indexOf("Tunis")] = "Repalace of tunis";
+
+// ***********(Introduction to Objects)***********
+const myCountry = {
+  country: "Egypt",
+  capital: "Cairo",
+  language: "Aribac",
+  population: 100,
+  neighbours: ["Tunis", "Libya", "Palestine"],
+};
