@@ -88,3 +88,15 @@ const myCountry = {
   population: 100,
   neighbours: ["Tunis", "Libya", "Palestine"],
 };
+
+// ***********(Dot vs. Bracket)***********
+// (1)
+console.log(
+  `${myCountry.country} has ${myCountry.population} million ${myCountry.language}-speaking people,${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}. `
+);
+// (2)
+myCountry.population = 102;
+console.log(myCountry.population);
+//
+myCountry["population"] = 100;
+console.log(myCountry.population);
