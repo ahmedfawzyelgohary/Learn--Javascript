@@ -25,7 +25,16 @@ scoreKoalas = calcAverage(23, 34, 27);
 function calcTip(bill) {
   return bill <= 300 && bill >= 50 ? bill * (15 / 100) : bill * (20 / 100);
 }
+//(1) for test
 console.log(calcTip(100));
-
-const bills = [calcTip];
+//(2)
+const bills = [125, 555, 44];
 console.log(bills);
+
+//(3) Testing Data
+const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+console.log(tips);
+
+// (4) bill + tip
+const total = [tips[0] + bills[0], tips[1] + bills[1], tips[2] + bills[2]];
+console.log(total);
