@@ -81,22 +81,38 @@ if (!neighbours.includes("Germany")) {
 neighbours[neighbours.indexOf("Tunis")] = "Repalace of tunis";
 
 // ***********(Introduction to Objects)***********
+// const myCountry = {
+//   country: "Egypt",
+//   capital: "Cairo",
+//   language: "Aribac",
+//   population: 100,
+//   neighbours: ["Tunis", "Libya", "Palestine"],
+// };
+
+// ***********(Dot vs. Bracket)***********
+// (1)
+// console.log(
+//   `${myCountry.country} has ${myCountry.population} million ${myCountry.language}-speaking people,${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}. `
+// );
+// (2)
+// myCountry.population = 102;
+// console.log(myCountry.population);
+// //
+// myCountry["population"] = 100;
+// console.log(myCountry.population);
+
+// ***********(Object Methods)***********\
 const myCountry = {
   country: "Egypt",
   capital: "Cairo",
   language: "Aribac",
   population: 100,
   neighbours: ["Tunis", "Libya", "Palestine"],
-};
 
-// ***********(Dot vs. Bracket)***********
-// (1)
-console.log(
-  `${myCountry.country} has ${myCountry.population} million ${myCountry.language}-speaking people,${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}. `
-);
-// (2)
-myCountry.population = 102;
-console.log(myCountry.population);
-//
-myCountry["population"] = 100;
-console.log(myCountry.population);
+  describe: function () {
+    console.log(
+      `${this.country} has ${this.population} million ${this.language} -speaking people,${this.neighbours.length} neighbours countries and a capital called ${this.capital}.`
+    );
+  },
+};
+console.log(myCountry.describe());
