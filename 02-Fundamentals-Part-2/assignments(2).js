@@ -101,7 +101,7 @@ neighbours[neighbours.indexOf("Tunis")] = "Repalace of tunis";
 // myCountry["population"] = 100;
 // console.log(myCountry.population);
 
-// ***********(Object Methods)***********\
+// ***********(Object Methods)***********
 const myCountry = {
   country: "Egypt",
   capital: "Cairo",
@@ -116,4 +116,3 @@ const myCountry = {
   },
 };
 console.log(myCountry.describe());
-//
