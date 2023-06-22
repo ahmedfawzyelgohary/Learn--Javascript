@@ -120,4 +120,4 @@ const myCountry = {
 };
 myCountry.describe();
 myCountry.checkIsland();
-// console.log(myCountry.describe());
+// console.log(myCountry);
