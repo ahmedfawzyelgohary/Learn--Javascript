@@ -114,6 +114,10 @@ const myCountry = {
       `${this.country} has ${this.population} million ${this.language} -speaking people,${this.neighbours.length} neighbours countries and a capital called ${this.capital}.`
     );
   },
+  checkIsland: function () {
+    this.isIsland = this.neighbours.length === 0 ? true : false;
+  },
 };
-console.log(myCountry.describe());
-//
+myCountry.describe();
+myCountry.checkIsland();
+// console.log(myCountry.describe());
