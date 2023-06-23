@@ -121,3 +121,8 @@ const myCountry = {
 // myCountry.describe();
 // myCountry.checkIsland();
 // console.log(myCountry);
+
+// ***********(The For loob)***********
+for (let rap = 1; rap <= 50; rap++) {
+  console.log(`Voter number ${rap} is currently voting 👀`);
+}

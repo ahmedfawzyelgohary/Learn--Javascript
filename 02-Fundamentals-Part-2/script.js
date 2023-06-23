@@ -63,11 +63,11 @@ const john = {
 };
 // (3)
 if (mark.calcBMI() > john.calcBMI()) {
-  console.log(
-    `${
-      mark.fullname
-    } BMI (${mark.calcBMI()}) is heigher than John's (${john.calcBMI()})`
-  );
+  // console.log(
+  //   `${
+  //     mark.fullname
+  //   } BMI (${mark.calcBMI()}) is heigher than John's (${john.calcBMI()})`
+  // );
 } else if (john.calcBMI() > mark.calcBMI()) {
   console.log(
     `${
