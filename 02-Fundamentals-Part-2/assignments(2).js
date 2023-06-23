@@ -118,6 +118,6 @@ const myCountry = {
     this.isIsland = this.neighbours.length === 0 ? true : false;
   },
 };
-myCountry.describe();
-myCountry.checkIsland();
+// myCountry.describe();
+// myCountry.checkIsland();
 // console.log(myCountry);
