@@ -1,3 +1,4 @@
+/*
 //---->  Coding Challenge #1 <------
 // Test 1
 const calcAverage = (score1, score2, score3) => (score1 + score2 + score3) / 3;
@@ -75,3 +76,30 @@ if (mark.calcBMI() > john.calcBMI()) {
     } BMI (${john.calcBMI()}) is heiger than Mark's(${mark.calcBMI()}) `
   );
 }
+*/
+//---->  Coding Challenge #4 <------
+function calcTip(bill) {
+  return bill <= 300 && bill >= 50 ? bill * (15 / 100) : bill * (20 / 100);
+}
+
+const bill = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+const tips = [];
+const totals = [];
+
+for (let i = 0; i < bill.length; i++) {
+  const tip = calcTip([bill[i]]);
+  tips.push(tip);
+  totals.push(bill[i] + tips[i]);
+}
+console.log(tips);
+console.log(totals);
+
+// Bouns
+const calcAverage = function (arr) {
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+  return sum / arr.length;
+};
+console.log(calcAverage(totals));
