@@ -138,4 +138,15 @@ for (let i = 0; i < population.length; i++) {
   const per = percentageOfWorld1(population[i]);
   percentageOfWorld4.push(per);
 }
-console.log(percentageOfWorld4);
+// console.log(percentageOfWorld4);
+
+// ***********(Looping Backwards and Loops in Loops)***********
+const listOfNeighbours = [
+  ["Canada", "Mexico"],
+  ["Spain"],
+  ["Norway", "Sweden", "Russia"],
+];
+
+for (let i = 0; i < listOfNeighbours.length; i++)
+  for (let y = 0; y < listOfNeighbours[i].length; y++)
+    // console.log(`Neighbour: ${listOfNeighbours[i][y]}`);
