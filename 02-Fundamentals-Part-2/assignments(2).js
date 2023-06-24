@@ -54,7 +54,7 @@ function describePopulation(country, population) {
 // console.log(describePopulation("Italy", 59));
 
 // ***********(Introduction to Arrays)***********
-const population = ["Egypt", "Finlada", "Tunis", "Italy"];
+// const population = ["Egypt", "Finlada", "Tunis", "Italy"];
 // Whether the array has 4 elements or not
 // console.log(population.length === 4);
 // <------->
@@ -124,5 +124,18 @@ const myCountry = {
 
 // ***********(The For loob)***********
 for (let rap = 1; rap <= 50; rap++) {
-  console.log(`Voter number ${rap} is currently voting 👀`);
+  // console.log(`Voter number ${rap} is currently voting 👀`);
 }
+
+// ***********(Looping Arrays, Breaking and Countinuing)***********
+function percentageOfWorld1(population) {
+  return (population / 7900) * 100;
+}
+
+const population = [100, 6, 10, 59];
+const percentageOfWorld4 = [];
+for (let i = 0; i < population.length; i++) {
+  const per = percentageOfWorld1(population[i]);
+  percentageOfWorld4.push(per);
+}
+console.log(percentageOfWorld4);
