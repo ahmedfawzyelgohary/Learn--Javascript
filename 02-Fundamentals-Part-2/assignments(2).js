@@ -1,3 +1,4 @@
+/*
 // ***********(Functions)***********
 function describeCountry(country, population, capitalcity) {
   const informCountry = `${country} has ${population} million people and its capitalcity is ${capitalcity}`;
@@ -128,17 +129,17 @@ for (let rap = 1; rap <= 50; rap++) {
 }
 
 // ***********(Looping Arrays, Breaking and Countinuing)***********
-function percentageOfWorld1(population) {
-  return (population / 7900) * 100;
-}
+// function percentageOfWorld1(population) {
+//   return (population / 7900) * 100;
+// }
 
-const population = [100, 6, 10, 59];
-const percentageOfWorld4 = [];
-for (let i = 0; i < population.length; i++) {
-  const per = percentageOfWorld1(population[i]);
-  percentageOfWorld4.push(per);
-}
-// console.log(percentageOfWorld4);
+// const population = [100, 6, 10, 59];
+// const percentageOfWorld4 = [];
+// for (let i = 0; i < population.length; i++) {
+//   const per = percentageOfWorld1(population[i]);
+//   percentageOfWorld4.push(per);
+// }
+// // // console.log(percentageOfWorld4);
 
 // ***********(Looping Backwards and Loops in Loops)***********
 const listOfNeighbours = [
@@ -150,3 +151,19 @@ const listOfNeighbours = [
 for (let i = 0; i < listOfNeighbours.length; i++)
   for (let y = 0; y < listOfNeighbours[i].length; y++)
     // console.log(`Neighbour: ${listOfNeighbours[i][y]}`);
+*/
+// ***********(The While Looop)***********
+
+function percentageOfWorld1(population) {
+  return (population / 7900) * 100;
+}
+const population = [100, 6, 10, 59];
+const percentageOfWorld4 = [];
+
+let i = 0;
+while (i < population.length) {
+  const perc = percentageOfWorld1(population[i]);
+  percentageOfWorld4.push(perc);
+  i++;
+}
+// console.log(percentageOfWorld4);
